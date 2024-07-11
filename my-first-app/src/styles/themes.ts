@@ -19,10 +19,11 @@ export const THEMES = extendTheme({
         black: '#000'
     },
     fontSizes: {
-        xs: 12,
-        sm: 14,
-        md: 16,
-        lg: 20,
-        xl: 24
+        'xs': 12,
+        'sm': 14,
+        'md': 16,
+        'lg': 20,
+        'xl': 24,
+        '2xl': 30
     }
 })

@@ -7,7 +7,7 @@ interface TitlesProps extends ITextProps {
 export function Titles({ children, ...rest }: TitlesProps){
     return (
         <Text 
-            fontSize={'2xl'}
+            fontSize={'xl'}
             fontWeight={'bold'}
             color={'orange.100'}
             alignSelf={'center'}

@@ -1,5 +1,5 @@
 import { VStack, Image, Text, Box, FormControl, Input, Button, Link } from 'native-base'
-import { TouchableOpacity } from 'react-native'
+import { TouchableOpacity, Alert } from 'react-native'
 
 import LogoIsfera from './assets/logoIsfera.jpeg'
 import { Titles } from './components/titles'
@@ -45,6 +45,7 @@ export default function Login() {
           <Text
             color={'blue.500'}
             fontWeight={'bold'}
+            onPress={() => Alert.alert('Em construção, aguarde!')}
           >Clique Aqui!</Text>
         </TouchableOpacity>  
       </Box> 
