@@ -41,13 +41,13 @@ export default function Login() {
         mt={3}
       >
         <Text>
-          {i18n.t('dontHaveAccountLink')}  
+          {i18n.t('dontHaveAccount')} 
         </Text>
         <TouchableOpacity>
           <Text
             color={'blue.500'}
             fontWeight={'bold'}
-            onPress={() => Alert.alert('Em construção, aguarde!')}
+            onPress={() => Alert.alert(i18n.t('buildingAlert'))}
           >{i18n.t('dontHaveAccountLink')}</Text>
         </TouchableOpacity>  
       </Box> 

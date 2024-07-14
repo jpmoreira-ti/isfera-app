@@ -7,5 +7,6 @@
     "btnLogin": "Entrar",
     "forgotPasswordLink": "Esqueceu sua senha?",
     "dontHaveAccount": "Ainda não tem cadastro? ",
-    "dontHaveAccountLink": "Clique Aqui!"
+    "dontHaveAccountLink": "Clique Aqui!",
+    "buildingAlert": "Em construção, aguarde!"
 }

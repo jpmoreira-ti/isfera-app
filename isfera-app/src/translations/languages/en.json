@@ -7,5 +7,6 @@
     "btnLogin": "LogIn",
     "forgotPasswordLink": "Did you forget your password?",
     "dontHaveAccount": "Still not have an account? ",
-    "dontHaveAccountLink": "Click Here!"
+    "dontHaveAccountLink": "Click Here!",
+    "buildingAlert": "Building, wait a moment!"
 }
