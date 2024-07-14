@@ -1,0 +1,11 @@
+{
+    "titleLogin": "Faça login em sua conta", 
+    "labelEmailText": "E-mail:", 
+    "labelPasswordText": "Senha:",
+    "inputEmailText": "Insira seu endereço de e-mail", 
+    "inputPasswordText": "Insira sua senha",
+    "btnLogin": "Entrar",
+    "forgotPasswordLink": "Esqueceu sua senha?",
+    "dontHaveAccount": "Ainda não tem cadastro? ",
+    "dontHaveAccountLink": "Clique Aqui!"
+}
