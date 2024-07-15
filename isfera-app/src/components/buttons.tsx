@@ -12,7 +12,6 @@ export function Buttons({ children, ...rest }: ButtonProps){
         bg={'green.100'}
         mt={10}
         borderRadius={'lg'}
-        //isLoading
         {...rest}
         onPress={() => Alert.alert('Em construção, aguarde!')}
       >

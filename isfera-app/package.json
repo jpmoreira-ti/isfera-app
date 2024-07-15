@@ -11,6 +11,8 @@
   "dependencies": {
     "@expo/metro-runtime": "~3.2.1",
     "@react-native/normalize-color": "^2.1.0",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.10.0",
     "@types/react": "~18.2.79",
     "expo": "~51.0.18",
     "expo-localization": "~15.0.3",

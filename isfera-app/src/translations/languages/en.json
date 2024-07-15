@@ -1,5 +1,5 @@
 {
-    "titleLogin": "LogIn on your Account", 
+    "titleLogin": "Login to your Account", 
     "labelEmailText": "E-mail:", 
     "labelPasswordText": "Password:",
     "inputEmailText": "Input your e-mail address", 
@@ -8,5 +8,6 @@
     "forgotPasswordLink": "Did you forget your password?",
     "dontHaveAccount": "Still not have an account? ",
     "dontHaveAccountLink": "Click Here!",
-    "buildingAlert": "Building, wait a moment!"
+    "buildingAlert": "Building, wait a moment!",
+    "isferaWebSite": "https://cursoisfera.com.br"
 }

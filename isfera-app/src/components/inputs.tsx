@@ -7,7 +7,7 @@ interface InputProps {
     leftIcon?: React.ReactNode;
 }
 
-export function InputText({ 
+export function Inputs({ 
     label, 
     placeholder, 
     secureTextEntry = false

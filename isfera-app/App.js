@@ -1,4 +1,4 @@
-import Login from './src/login';
+import Login from './src/screens/login';
 import { NativeBaseProvider, StatusBar } from 'native-base'
 import { THEMES } from './src/styles/themes';
 
