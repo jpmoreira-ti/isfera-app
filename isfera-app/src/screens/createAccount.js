@@ -9,7 +9,7 @@ import i18n  from '../translations/i18n'
 
 export default function CreateAccount() {
   return (
-    <VStack flex={1} p={10} alignItems={'center'} justifyContent={'center'}>
+    <VStack flex={1} p={10} alignItems={'center'} justifyContent={'center'} bgColor={'white'}>
       <Image source={LogoIsfera} alt='Logo Isfera' />
       <Titles>
         {i18n.t('titleLogin')}
