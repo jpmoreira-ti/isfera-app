@@ -4,7 +4,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack"
 
 import Login from "./screens/login"
 import CreateAccount from "./screens/createAccount"
-import UpdatePassword from "./screens/updatePassword"
+import UpdatePassword from "./screens/forgotPassword"
 
 const Tab = createNativeStackNavigator()
 

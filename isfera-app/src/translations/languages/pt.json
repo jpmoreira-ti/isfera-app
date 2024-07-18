@@ -18,8 +18,10 @@
     "inputNewPasswordText": "Insira sua nova senha",
     "labelConfirmPassword": "Repetir senha:",
     "inputConfirmNewPasswordText": "Confirme sua nova senha",
+    "msgCreateAccountSuccessfully": "Conta criada com sucesso!",
     "btnGoBack": "Voltar",
     "updatePasswordTitle": "Atualize sua senha",
+    "msgUpdatePasswordSuccessfully": "Senha atualizada com sucesso!",
     "btnUpdatePassword": "Atualizar",
     "linkLearnMore": "Saiba mais",
     "msgLoginSuccessfully": "Login feito com sucesso!" 
