@@ -9,5 +9,20 @@
     "dontHaveAccount": "Still not have an account? ",
     "dontHaveAccountLink": "Click Here!",
     "buildingAlert": "Building, wait a moment!",
-    "isferaWebSite": "https://cursoisfera.com.br"
+    "isferaWebSite": "https://cursoisfera.com.br",
+    "titleCreateAccount": "Input your account data",
+    "labelNameText": "Name:",
+    "inputNameText": "Input your fullname",
+    "btnCreateAccount": "Create account",
+    "labelNewPasswordText": "New Password:",
+    "inputNewPasswordText": "Input your new password",
+    "labelConfirmPassword": "Confirm password:",
+    "inputConfirmNewPasswordText": "Confirm your new password",
+    "msgCreateAccountSuccessfully": "Created account successfully!",
+    "btnGoBack": "Go back",
+    "updatePasswordTitle": "Update your password",
+    "msgUpdatePasswordSuccessfully": "Update password successfully!",
+    "btnUpdatePassword": "Update",
+    "linkLearnMore": "Learn more",
+    "msgLoginSuccessfully": "Login successfully!"
 }

@@ -1,5 +1,4 @@
 import { IButtonProps, Button } from "native-base"
-import { Alert } from "react-native"
 
 interface ButtonProps extends IButtonProps {
     children: React.ReactNode
@@ -8,12 +7,11 @@ interface ButtonProps extends IButtonProps {
 export function Buttons({ children, ...rest }: ButtonProps){
     return (
       <Button
-        w={'full'}
+        w={'100%'}
         bg={'green.100'}
-        mt={10}
+        mt={5}
         borderRadius={'lg'}
         {...rest}
-        onPress={() => Alert.alert('Em construção, aguarde!')}
       >
         {children}
       </Button>

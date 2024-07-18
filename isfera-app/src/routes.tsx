@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack"
 
 import Login from "./screens/login"
 import CreateAccount from "./screens/createAccount"
+import UpdatePassword from "./screens/updatePassword"
 
 const Tab = createNativeStackNavigator()
 
@@ -20,6 +21,13 @@ export default function Routes(){
                 />
                 <Tab.Screen
                     name="CreateAccount" component={CreateAccount} options={
+                        {
+                            headerShown: false
+                        }
+                    }
+                />
+                <Tab.Screen
+                    name="UpdatePassword" component={UpdatePassword} options={
                         {
                             headerShown: false
                         }

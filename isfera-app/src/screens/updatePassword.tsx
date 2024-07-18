@@ -8,30 +8,20 @@ import { Buttons } from '../components/buttons'
 import i18n  from '../translations/i18n'
 import { useState } from 'react'
 
-export default function CreateAccount( { navigation } ) {
+export default function UpdatePassword( { navigation } ) {
   const [numSection, setNumSection] = useState(0)
   const section = [
     {
       id: 1,
-      title: i18n.t('titleCreateAccount'),
+      title: i18n.t('updatePasswordTitle'),
       inputText: [
         {
           id: 1,
-          label: i18n.t('labelNameText'),
-          placeholder: i18n.t('inputNameText'),
-        },
-        {
-          id: 2,
-          label: i18n.t('labelEmailText'),
-          placeholder: i18n.t('inputEmailText'),
-        },
-        {
-          id: 3,
           label: i18n.t('labelNewPasswordText'),
           placeholder: i18n.t('inputNewPasswordText'),
         },
         {
-          id: 4,
+          id: 2,
           label: i18n.t('labelConfirmPassword'),
           placeholder: i18n.t('inputConfirmNewPasswordText'),
         }
@@ -66,9 +56,9 @@ export default function CreateAccount( { navigation } ) {
          {i18n.t('btnGoBack')}
       </Buttons>
       <Buttons
-        onPress={() => Alert.alert(i18n.t('msgCreateAccountSuccessfully'))}
+        onPress={() => Alert.alert(i18n.t('msgUpdatePasswordSuccessfully'))}
       >
-        {i18n.t('btnCreateAccount')}
+        {i18n.t('btnUpdatePassword')}
       </Buttons>
     </VStack>
   );

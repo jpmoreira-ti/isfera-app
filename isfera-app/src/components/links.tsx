@@ -5,10 +5,10 @@ import { Linking } from "react-native"
 export function ForgetPasswordLink() {
     return (
       <Link
-        href={i18n.t('isferaWebSite')}
+        href={'https://cursoisfera.com.br'}
         mt={3}
         alignSelf={'center'}
-        onPress={() => Linking.openURL(i18n.t('isferaWebSite'))}
+        onPress={() => Linking.openURL('https://cursoisfera.com.br')}
       >
          {i18n.t('forgotPasswordLink')}
       </Link>
