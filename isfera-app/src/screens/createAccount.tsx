@@ -7,6 +7,8 @@ import { Inputs } from '../components/inputs'
 import { Buttons } from '../components/buttons'
 import i18n  from '../translations/i18n'
 import { useState } from 'react'
+import GoBackButton from '../components/gobackbutton'
+import CreateAccountButton from '../components/createaccountbutton'
 
 export default function CreateAccount( { navigation } ) {
   const [numSection, setNumSection] = useState(0)
@@ -59,17 +61,8 @@ export default function CreateAccount( { navigation } ) {
         })
        }
       </Box>
-      <Buttons
-         bg={'gray.300'}
-         onPress={() => navigation.navigate('Login')}
-      >
-         {i18n.t('btnGoBack')}
-      </Buttons>
-      <Buttons
-        onPress={() => Alert.alert(i18n.t('msgCreateAccountSuccessfully'))}
-      >
-        {i18n.t('btnCreateAccount')}
-      </Buttons>
+      <GoBackButton navigation={() => navigation.navigate('Login')}/>
+      <CreateAccountButton navigation={() => navigation.navigate('Login')}/>  
     </VStack>
   );
 }

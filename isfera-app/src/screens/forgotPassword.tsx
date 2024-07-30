@@ -4,9 +4,10 @@ import { Alert } from 'react-native'
 import LogoIsfera from '../assets/logoIsfera.jpeg'
 import { Titles } from '../components/titles'
 import { Inputs } from '../components/inputs'
-import { Buttons } from '../components/buttons'
+import GoBackButton from '../components/gobackbutton'
 import i18n  from '../translations/i18n'
 import { useState } from 'react'
+import UpdateButton from '../components/updatepasswordbutton'
 
 export default function UpdatePassword( { navigation } ) {
   const [numSection, setNumSection] = useState(0)
@@ -49,17 +50,8 @@ export default function UpdatePassword( { navigation } ) {
         })
        }
       </Box>
-      <Buttons
-         bg={'gray.300'}
-         onPress={() => navigation.navigate('Login')}
-      >
-         {i18n.t('btnGoBack')}
-      </Buttons>
-      <Buttons
-        onPress={() => Alert.alert(i18n.t('msgUpdatePasswordSuccessfully'))}
-      >
-        {i18n.t('btnUpdatePassword')}
-      </Buttons>
+      <GoBackButton navigation={() => navigation.navigate('Login')}/>
+      <UpdateButton navigation={() => navigation.navigate('Login')}/>
     </VStack>
   );
 }
