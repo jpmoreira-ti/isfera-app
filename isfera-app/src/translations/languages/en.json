@@ -28,5 +28,11 @@
     "signInGoogle": "Sign In with Google",
     "titleBottonBarHome": "Home",
     "titleBottonBarClasses": "Classes",
-    "titleBottonBarLogout": "Logout"
+    "titleBottonBarProfile": "Profile",
+    "titleBottonBarExams": "Exams",
+    "titleMenuScreenHome": "Welcome",
+    "titleMenuScreenClasses": "Classes",
+    "titleMenuScreenExams": "Exams",
+    "titleMenuScreenProfile": "Profile",
+    "btnLogout": "Log Out"
 }

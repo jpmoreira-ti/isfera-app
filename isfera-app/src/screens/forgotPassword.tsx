@@ -1,5 +1,4 @@
 import { VStack, Image, Box } from 'native-base'
-import { Alert } from 'react-native'
 
 import LogoIsfera from '../assets/logoIsfera.jpeg'
 import { Titles } from '../components/titles'

@@ -1,9 +1,9 @@
 import { VStack, Text } from "native-base"
 
-export default function Logout() {
+export default function Exams() {
     return(
         <VStack>
-            <Text>Logout</Text>
+            <Text>Exams</Text>
         </VStack>
     ) 
 }

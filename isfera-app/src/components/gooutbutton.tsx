@@ -5,31 +5,31 @@ import i18n from '../translations/i18n';
 import { THEMES } from '../styles/themes'; 
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 
-interface GoBackButtonProps {
+interface GoOutButtonProps {
   navigation: () => void;
 }
 
-const GoBackButton: React.FC<GoBackButtonProps> = ({ navigation }) => {
+const GoOutButton: React.FC<GoOutButtonProps> = ({ navigation }) => {
   return (
-    <TouchableOpacity style={styles.goBackButton} onPress={navigation}>
+    <TouchableOpacity style={styles.goOutButton} onPress={navigation}>
       <View style={styles.buttonContent}>
         <FontAwesome name="sign-out" size={24} color={THEMES.colors.white} />
-        <Text style={styles.buttonText}>{i18n.t('btnGoBack')}</Text>
+        <Text style={styles.buttonText}>{i18n.t('btnLogout')}</Text>
       </View>
     </TouchableOpacity>
   );
 };
 
 const styles = StyleSheet.create({
-  goBackButton: {
+  goOutButton: {
     backgroundColor: THEMES.colors.gray[300],
-    borderRadius: 10,
+    borderRadius: 100,
     marginTop: 40,
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    width: '100%',
-    height: '7%'
+    width: '40%',
+    height: '10%'
   },
   buttonContent: {
     flexDirection: 'row',
@@ -42,4 +42,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default GoBackButton;
+export default GoOutButton;

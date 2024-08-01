@@ -1,4 +1,5 @@
 import { ITextProps, Text } from "native-base"
+import { THEMES } from "../styles/themes"
 
 interface TitlesProps extends ITextProps {
     children: React.ReactNode
@@ -7,9 +8,9 @@ interface TitlesProps extends ITextProps {
 export function Titles({ children, ...rest }: TitlesProps){
     return (
         <Text 
-            fontSize={'xl'}
+            fontSize={THEMES.fontSizes["3xl"]}
             fontWeight={'bold'}
-            color={'orange.100'}
+            color={THEMES.colors.orange[100]}
             alignSelf={'center'}
             mt={5}
             {...rest}

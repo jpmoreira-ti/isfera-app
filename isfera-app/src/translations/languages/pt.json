@@ -26,7 +26,12 @@
     "linkLearnMore": "Saiba mais",
     "msgLoginSuccessfully": "Login feito com sucesso!",
     "signInGoogle": "Entrar com o Google",
-    "titleBottonBarHome": "Inicio",
+    "titleBottonBarHome": "Início",
     "titleBottonBarClasses": "Aulas",
-    "titleBottonBarLogout": "Sair" 
+    "titleBottonBarExams": "Simulados",
+    "titleMenuScreenHome": "Início",
+    "titleMenuScreenClasses": "Aulas",
+    "titleMenuScreenExams": "Simulados",
+    "titleMenuScreenProfile": "Perfil",
+    "btnLogout": "Sair"
 }

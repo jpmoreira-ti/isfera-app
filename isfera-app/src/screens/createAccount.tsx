@@ -1,10 +1,8 @@
 import { VStack, Image, Box } from 'native-base'
-import { Alert } from 'react-native'
 
 import LogoIsfera from '../assets/logoIsfera.jpeg'
 import { Titles } from '../components/titles'
 import { Inputs } from '../components/inputs'
-import { Buttons } from '../components/buttons'
 import i18n  from '../translations/i18n'
 import { useState } from 'react'
 import GoBackButton from '../components/gobackbutton'

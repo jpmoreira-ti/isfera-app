@@ -1,6 +1,5 @@
 import React from 'react';
 import { VStack, Image, Text, Box } from 'native-base';
-import { TouchableOpacity } from 'react-native';
 
 import LogoIsfera from '../assets/logoIsfera.jpeg';
 import { Titles } from '../components/titles';
@@ -10,10 +9,11 @@ import SignInButtonGoogle from '../components/signinbuttongoogle';
 import SignInButtonDefault from '../components/signinbuttondefault';
 import ForgotPasswordLink from '../components/forgotpasswordlink';
 import StillNotHaveAccountLink from '../components/stillnothaveaccountlink';
+import { THEMES } from '../styles/themes';
 
 export default function Login({ navigation }) {
   return (
-    <VStack flex={1} p={10} alignItems={'center'} justifyContent={'center'} bgColor={'white'}>
+    <VStack flex={1} p={10} alignItems={'center'} justifyContent={'center'} bgColor={THEMES.colors.white}>
       <Image source={LogoIsfera} alt='Logo Isfera' />
       <Titles>
         {i18n.t('titleLogin')}

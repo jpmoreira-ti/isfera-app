@@ -18,6 +18,7 @@ export function Inputs({
           <Input
             placeholder={placeholder}
             size="lg"
+            height={12}
             w="100%"
             borderRadius="lg"
             bgColor="gray.100"

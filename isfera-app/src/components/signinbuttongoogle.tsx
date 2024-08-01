@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    height: '7%'
   },
   buttonContent: {
     flexDirection: 'row',
